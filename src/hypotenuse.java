@@ -1,22 +1,18 @@
-import java.util.Scanner;
+void main() {
+    double x;
+    double y;
+    double z;
 
-public class hypotenuse {
-    public static void main(String[] args) {
-        double x;
-        double y;
-        double z;
+    Scanner sc = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+    IO.println("Enter side x: ");
+    x = sc.nextDouble();
+    IO.println("Enter side y: ");
+    y = sc.nextDouble();
 
-        System.out.println("Enter side x: ");
-        x=sc.nextDouble();
-        System.out.println("Enter side y: ");
-        y=sc.nextDouble();
+    z = Math.sqrt(x * x + y * y);
 
-        z = Math.sqrt(x*x+y*y);
+    IO.println("The hypotenuse is " + z);
 
-        System.out.println("The hypotenuse is " + z);
-
-        sc.close();
-    }
+    sc.close();
 }
