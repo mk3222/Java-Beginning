@@ -1,9 +1,8 @@
-public class stringClass {
-    public static void main(String[] args) {
+void main() {
 
-        String name = "MK";
+    String name = "MK";
 
-        boolean result = name.equalsIgnoreCase("MK");
+    boolean result = name.equalsIgnoreCase("MK");
 //        int result = name.length();
 //        char result = name.charAt(0);
 //        int result = name.indexOf("K");
@@ -14,7 +13,6 @@ public class stringClass {
 //        String result = name.replace('M', 'Z');
 
 
-        System.out.println(result);
+    IO.println(result);
 
-    }
 }
