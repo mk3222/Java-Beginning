@@ -1,32 +1,30 @@
-public class sWitch {
-    public static void main(String[] args) {
-        String day = "Friday";
+void main() {
+    String day = "Friday";
 
-        switch (day) {
-            case "Sunday":
-                System.out.println("It is a Sunday");
-                break;
-            case "Monday":
-                System.out.println("It is a Monday");
-                break;
-            case "Tuesday":
-                System.out.println("It is a Tuesday");
-                break;
-            case "Wednesday":
-                System.out.println("It is a Wednesday");
-                break;
-            case "Thursday":
-                System.out.println("It is a Thursday");
-                break;
-            case "Friday":
-                System.out.println("It is a Friday");
-                break;
-            case "Saturday":
-                System.out.println("It is a Saturday");
-                break;
-            default:
-                System.out.println("It is not a day");
+    switch (day) {
+        case "Sunday":
+            IO.println("It is a Sunday");
+            break;
+        case "Monday":
+            IO.println("It is a Monday");
+            break;
+        case "Tuesday":
+            IO.println("It is a Tuesday");
+            break;
+        case "Wednesday":
+            IO.println("It is a Wednesday");
+            break;
+        case "Thursday":
+            IO.println("It is a Thursday");
+            break;
+        case "Friday":
+            IO.println("It is a Friday");
+            break;
+        case "Saturday":
+            IO.println("It is a Saturday");
+            break;
+        default:
+            IO.println("It is not a day");
 
-        }
     }
 }

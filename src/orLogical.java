@@ -1,15 +1,11 @@
-import java.util.Scanner;
+void main() {
+    Scanner sc = new Scanner(System.in);
 
-public class orLogical {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("You are playing a game! Press q or Q to quit");
-        String response = sc.next();
-        if (response.equals("q") || response.equals("Q")) {
-            System.out.println("You quit the game");
-        } else {
-            System.out.println("You are still playing the game *pew pew*");
-        }
+    IO.println("You are playing a game! Press q or Q to quit");
+    String response = sc.next();
+    if (response.equals("q") || response.equals("Q")) {
+        IO.println("You quit the game");
+    } else {
+        IO.println("You are still playing the game *pew pew*");
     }
 }
