@@ -1,19 +1,18 @@
-public class _2DaRray {
-    public static void main(String[] args) {
+void main() {
 
-        String[][] cars = {
-                {"A", "B", "C"},
-                {"D", "E", "F"},
-                {"G", "H", "I"}
-        };
+    String[][] cars = {
+            {"A", "B", "C"},
+            {"D", "E", "F"},
+            {"G", "H", "I"}
+    };
 
 
-        for (String[] car : cars) {
-            System.out.println();
-            for (String s : car) {
-                System.out.print(s + " ");
-            }
+    for (String[] car : cars) {
+        IO.println();
+        for (String s : car) {
+            IO.print(s + " ");
         }
+    }
 
         /*    String[][] cars = new String[3][3];
         cars[0][0] = "A";
@@ -34,5 +33,4 @@ public class _2DaRray {
         }
         */
 
-    }
 }
